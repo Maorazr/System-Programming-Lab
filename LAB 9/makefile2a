@@ -1,0 +1,13 @@
+# All
+all: skeleton
+
+skeleton: skeleton.o
+	ld -m elf_i386 skeleton.o -o skeleton
+	
+skeleton.o: task2a.s
+	nasm -f elf32 -o skeleton.o task2a.s
+		
+.PHONY: clean
+
+clean:
+	rm -f *.o skeleton
