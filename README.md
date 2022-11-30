@@ -41,7 +41,7 @@ Lab goals:
 - Understanding data structures: linked lists in C.
 - Basic access to "binary" files, with application: simplified virus detection in executable files.
 
-# LAB 4 - 
+# LAB 4 - System calls, working with files
 Lab goals: 
 
 - To get acquainted with the low-level interface to system calls.
